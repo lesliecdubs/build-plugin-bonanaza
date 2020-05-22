@@ -1,4 +1,6 @@
 # netlify.toml
+[build]
+base = "the-project/"
 
 [[plugins]]
 package = "../plugins/netlify-plugin-bonanza"
